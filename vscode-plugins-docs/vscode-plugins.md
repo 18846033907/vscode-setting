@@ -2,47 +2,47 @@
 
 ## Auto Close Tag
 
-自动闭合标签[https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
+自动闭合标签 [https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
 
 ## Auto Rename Tag
 
-自动重命名标签[https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
+自动重命名标签 [https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 
 ## Bracket Pair Colorizer
 
-生成易读的彩色括号[https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
+生成易读的彩色括号 [https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
 
 ## ES7 React/Redux/GraphQL/React-Native snippets
 
-语法提示[https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
+ES7 React/Redux/GraphQL/React-Native 语法提示 [https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
 
 ## ESLint
 
-用于支持 JavaScript 实时语法校验,需配置.eslintrc 文件[https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+用于支持 JavaScript 实时语法校验,需配置.eslintrc 文件 [https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
 ## Git Hostory
 
-可查看文件的 git log 并进行对比[https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
+可查看文件的 git log 并进行对比 [https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
 
 ## GitLens-Git supercharged
 
-显示代码每一行的最新修改人[https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+显示代码每一行的最新修改人 [https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
 ## HTML Snippets
 
-能修复默认 HTML Emmet 的一些问题[https://marketplace.visualstudio.com/items?itemName=abusaidm.html-snippets](https://marketplace.visualstudio.com/items?itemName=abusaidm.html-snippets)
+能修复默认 HTML Emmet 的一些问题 [https://marketplace.visualstudio.com/items?itemName=abusaidm.html-snippets](https://marketplace.visualstudio.com/items?itemName=abusaidm.html-snippets)
 
 ## JavaScript (ES6) code snippets
 
-JavaScript 相关语法提示[https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
+JavaScript 相关语法提示 [https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
 
 ## Path Intellisense
 
-路径匹配[https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+路径匹配 [https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
 
 ## Prettier - Code formatter
 
-格式化为标准风格,需配置.prettierrc[https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+格式化为标准风格,需配置.prettierrc [https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
 # vscode 配置文件
 
@@ -51,7 +51,7 @@ JavaScript 相关语法提示[https://marketplace.visualstudio.com/items?itemNam
 <br>cd .vscode<br>
 <br>type NUL>settings.json(新建 setting.json 文件)<br>
 <br>settings.json 的基础配置详见本项目.vscode>settings.json<br>
-<br>更多配置项[https://code.visualstudio.com/docs/getstarted/settings](https://code.visualstudio.com/docs/getstarted/settings)<br>
+<br>更多配置项 [https://code.visualstudio.com/docs/getstarted/settings](https://code.visualstudio.com/docs/getstarted/settings)<br>
 
 # vscode 常用快捷键
 
@@ -86,4 +86,4 @@ JavaScript 相关语法提示[https://marketplace.visualstudio.com/items?itemNam
 
 <br>更多快捷键 文件>首选项>键盘快捷方式<br>
 
-vscode 相关配置查询[https://code.visualstudio.com/docs](https://code.visualstudio.com/docs)
+vscode 相关配置查询 [https://code.visualstudio.com/docs](https://code.visualstudio.com/docs)
