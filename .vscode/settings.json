@@ -1,0 +1,43 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  //设置行尾序列为LF
+  "files.eol": "\n",
+  // 编辑器字体大小
+  "editor.fontSize": 14,
+  "editor.tabSize": 2,
+  // 保存时是否自动化格式文档
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    // 在import语句处右键点击源代码操作可整理此文件中的所有import语句
+    "source.organizeImports": true
+  },
+  // 调整窗口的缩放级别
+  "window.zoomLevel": 2,
+  // 文件保存时，是否自动根据eslint进行格式化
+  "eslint.autoFixOnSave": true,
+  // 是否开启eslint检测
+  "eslint.enable": true,
+  // VScode 文件搜索区域配置
+  "search.exclude": {
+    "**/dist": true,
+    "**/build": true,
+    "**/package-lock.json": true,
+    "**/.gitignore": true,
+    "**/.vscode": false,
+    "**/yarn.lock": true,
+    "**/package.json": true
+  },
+  // 配置gitlen中git提交历史记录的信息显示情况
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressResultsExplorerNotice": false,
+    "suppressShowKeyBindingsNotice": true,
+    "suppressUpdateNotice": false,
+    "suppressWelcomeNotice": true
+  }
+}
