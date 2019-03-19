@@ -2,7 +2,7 @@
 
 | 推荐插件                                                                                              | 简述                                          | 官网链接                                                                                       |
 | ----------------------------------------------------------------------------------------------------- | --------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| [Auto Close Tag](##Auto-Close-Tag-Demo)                                                               | 自动闭合标签                                  | [详情](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)       |
+| [Auto Close Tag](#Auto-Close-Tag-Demo)                                                                | 自动闭合标签                                  | [详情](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)       |
 | [Auto Rename Tag](##Auto-Rename-Tag-Demo)                                                             | 自动重命名标签                                | [详情](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)      |
 | [Bracket Pair Colorizer](##Bracket-Pair-Colorizer-Demo)                                               | 生成易读的彩色括号                            | [详情](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)   |
 | [ES7 React/Redux/GraphQL/React-Native snippets](##ES7-React/Redux/GraphQL/React-Native-snippets-Demo) | ES7 React/Redux/GraphQL/React-Native 语法提示 | [详情](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)    |
@@ -16,7 +16,7 @@
 | [EditorConfig for VS Code](##EditorConfig-for-VS-Code-Demo)                                           | EditorConfig 规范不同编辑器的配置             | [详情](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)          |
 | [stylelint](##stylelint-Demo)                                                                         | 样式检查                                      | [详情](https://marketplace.visualstudio.com/items?itemName=shinnn.stylelint)                   |
 
-## Auto-Close-Tag-Demo
+# Auto-Close-Tag-Demo
 
 ![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/Auto-Close-Tag/close-tag.gif)
 ![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/Auto-Close-Tag/st3.gif)
