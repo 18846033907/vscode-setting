@@ -16,7 +16,7 @@
 | [EditorConfig for VS Code](##EditorConfig-for-VS-Code-Demo)                                           | EditorConfig 规范不同编辑器的配置             | [详情](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)          |
 | [stylelint](##stylelint-Demo)                                                                         | 样式检查                                      | [详情](https://marketplace.visualstudio.com/items?itemName=shinnn.stylelint)                   |
 
-# Auto-Close-Tag-Demo
+## Auto-Close-Tag-Demo
 
 ![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/Auto-Close-Tag/close-tag.gif)
 ![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/Auto-Close-Tag/st3.gif)
