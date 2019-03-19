@@ -57,16 +57,27 @@
 
 ## Path-Intellisense-Demo
 
-![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/Path-Intellisense/iaHeUiDeTUZuo.gif)
 ![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/Path-Intellisense/usage.gif)
 
 # vscode 配置文件
 
-cd 项目文件
-mkdir .vscode
-cd .vscode
-type NUL>settings.json(新建 setting.json 文件)
-settings.json 的基础配置
+<br>cd 项目文件<br>
+<br>mkdir .vscode<br>
+<br>cd .vscode<br>
+<br>type NUL>settings.json(新建 setting.json 文件)<br>
+
+settings.json 的必需配置
+
+```json
+{
+  // 设置行尾序列为LF
+  "files.eol": "\n",
+  // 是否开启eslint检测
+  "eslint.enable": false
+}
+```
+
+settings.json 的推荐配置
 
 ```json
 {
