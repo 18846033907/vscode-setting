@@ -5,7 +5,7 @@
 | [Auto Close Tag](#Auto-Close-Tag-Demo)                                                               | 自动闭合标签                                  | [详情](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)       |
 | [Auto Rename Tag](#Auto-Rename-Tag-Demo)                                                             | 自动重命名标签                                | [详情](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)      |
 | [Bracket Pair Colorizer](#Bracket-Pair-Colorizer-Demo)                                               | 生成易读的彩色括号                            | [详情](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)   |
-| [ES7 React/Redux/GraphQL/React-Native snippets](#ES7-React/Redux/GraphQL/React-Native-snippets-Demo) | ES7 React/Redux/GraphQL/React-Native 语法提示 | [详情](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)    |
+| [ES7 React/Redux/GraphQL/React-Native snippets](#ES7-React-Redux-GraphQL-React-Native-snippets-Demo) | ES7 React/Redux/GraphQL/React-Native 语法提示 | [详情](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)    |
 | [ESLint](#ESLint-Demo)                                                                               | 用于支持 JavaScript 实时语法校验              | [详情](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)             |
 | [Git History](#Git-History-Demo)                                                                     | 可查看文件的 git log 并进行对比               | [详情](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)            |
 | [GitLens-Git supercharged](#GitLens-Git-supercharged-Demo)                                           | 显示代码每一行的最新修改人                    | [详情](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)                    |
@@ -30,7 +30,7 @@
 
 ![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/Bracket-Pair-Colorizer/usage.gif)
 
-## ES7-React/Redux/GraphQL/React-Native-snippets-Demo
+## ES7-React-Redux-GraphQL-React-Native-snippets-Demo
 
 ![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/ES7-React-Redux-GraphQL-ReactNative-snippets/usage.gif)
 
@@ -47,15 +47,15 @@
 ![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/GitLens%20%E2%80%94%20Git%20supercharged/gitlens-preview.gif)
 ![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/GitLens%20%E2%80%94%20Git%20supercharged/usage.gif)
 
-## HTML Snippets
+## HTML-Snippets-Demo
 
 ![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/HTML-Snippets/usage.gif)
 
-## JavaScript (ES6) code snippets
+## JavaScript-ES6-code-snippets-Demo
 
 ![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/JavaScript-ES6-code-snippets/usage.gif)
 
-## Path Intellisense
+## Path-Intellisense-Demo
 
 ![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/Path-Intellisense/iaHeUiDeTUZuo.gif)
 ![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/Path-Intellisense/usage.gif)
