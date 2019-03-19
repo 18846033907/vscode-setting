@@ -43,6 +43,7 @@ JavaScript 相关语法提示 [https://marketplace.visualstudio.com/items?itemNa
 ## Prettier - Code formatter
 
 格式化为标准风格,需配置.prettierrc [https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+![image](.\images\usage.gif)
 
 # vscode 配置文件
 
