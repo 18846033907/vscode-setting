@@ -16,21 +16,87 @@
 | [EditorConfig for VS Code](##EditorConfig-for-VS-Code-Demo)                                           | EditorConfig 规范不同编辑器的配置             | [详情](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)          |
 | [stylelint](##stylelint-Demo)                                                                         | 样式检查                                      | [详情](https://marketplace.visualstudio.com/items?itemName=shinnn.stylelint)                   |
 
-##Auto-Close-Tag-Demo
+## Auto-Close-Tag-Demo
+
 ![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/Auto-Close-Tag/close-tag.gif)
 ![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/Auto-Close-Tag/st3.gif)
 ![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/Auto-Close-Tag/usage.gif)
-##Auto-Rename-Tag-Demo
+
+## Auto-Rename-Tag-Demo
+
 ![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/Auto-Rename-Tag/usage.gif)
-##Bracket-Pair-Colorizer-Demo
+
+## Bracket-Pair-Colorizer-Demo
+
+![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/Bracket-Pair-Colorizer/usage.gif)
+
+## ES7-React/Redux/GraphQL/React-Native-snippets-Demo
+
+![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/ES7-React-Redux-GraphQL-ReactNative-snippets/usage.gif)
+
+## Git-History-Demo
+
+![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/Git-History/compare.gif)
+![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/Git-History/fileHistoryCommand.gif)
+![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/Git-History/fileHistoryCommandMore.gif)
+![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/Git-History/gitLogv2.gif)
+![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/Git-History/lineHistoryCommand.gif)
+
+## GitLens-Git-supercharged-Demo
+
+![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/GitLens%20%E2%80%94%20Git%20supercharged/gitlens-preview.gif)
+![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/GitLens%20%E2%80%94%20Git%20supercharged/usage.gif)
+
+## HTML Snippets
+
+![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/HTML-Snippets/usage.gif)
+
+## JavaScript (ES6) code snippets
+
+![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/JavaScript-ES6-code-snippets/usage.gif)
+
+## Path Intellisense
+
+![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/Path-Intellisense/iaHeUiDeTUZuo.gif)
+![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/Path-Intellisense/usage.gif)
 
 # vscode 配置文件
 
-<br>cd 项目文件<br>
-<br>mkdir .vscode<br>
-<br>cd .vscode<br>
-<br>type NUL>settings.json(新建 setting.json 文件)<br>
-<br>settings.json 的基础配置详见本项目.vscode>settings.json<br>
+cd 项目文件
+mkdir .vscode
+cd .vscode
+type NUL>settings.json(新建 setting.json 文件)
+settings.json 的基础配置
+
+```json
+{
+  // 设置行尾序列为LF
+  "files.eol": "\n",
+  // 编辑器字体大小
+  "editor.fontSize": 14,
+  // 空格
+  "editor.tabSize": 2,
+  // 保存时是否自动化格式文档
+  "editor.formatOnSave": true,
+  // 调整窗口的缩放级别
+  "window.zoomLevel": 2,
+  // 文件保存时，是否自动根据eslint进行格式化
+  "eslint.autoFixOnSave": true,
+  // 是否开启eslint检测
+  "eslint.enable": false,
+  // VScode 文件搜索区域配置
+  "search.exclude": {
+    "**/dist": true,
+    "**/build": true,
+    "**/package-lock.json": true,
+    "**/.gitignore": true,
+    "**/.vscode": false,
+    "**/yarn.lock": true,
+    "**/package.json": true
+  }
+}
+```
+
 <br>更多配置项 [https://code.visualstudio.com/docs/getstarted/settings](https://code.visualstudio.com/docs/getstarted/settings)<br>
 
 # vscode 常用快捷键
