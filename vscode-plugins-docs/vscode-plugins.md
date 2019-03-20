@@ -33,8 +33,10 @@
 
 ## Git
 
-| [Git History](#Git-History-Demo) | 可查看文件的 git log 并进行对比 | [详情](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory) |
-| [GitLens-Git supercharged](#GitLens-Git-supercharged-Demo) | 显示代码每一行的最新修改人 | [详情](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) |
+| 插件                                                       | 简述                            | 官网链接                                                                            |
+| ---------------------------------------------------------- | ------------------------------- | ----------------------------------------------------------------------------------- |
+| [Git History](#Git-History-Demo)                           | 可查看文件的 git log 并进行对比 | [详情](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory) |
+| [GitLens-Git supercharged](#GitLens-Git-supercharged-Demo) | 显示代码每一行的最新修改人      | [详情](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)         |
 
 ### Git-History-Demo
 
@@ -51,8 +53,10 @@
 
 ## 语法提示
 
-| [HTML Snippets](#HTML-Snippets-Demo) | HTML 相关语法提示 | [详情](https://marketplace.visualstudio.com/items?itemName=abusaidm.html-snippets) |
-| [JavaScript (ES6) code snippets](#JavaScript-ES6-code-snippets-Demo) | JavaScript 相关语法提示 | [详情](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets) |
+| 插件                                                                                                 | 简述                                          | 官网链接                                                                                    |
+| ---------------------------------------------------------------------------------------------------- | --------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| [HTML Snippets](#HTML-Snippets-Demo)                                                                 | HTML 相关语法提示                             | [详情](https://marketplace.visualstudio.com/items?itemName=abusaidm.html-snippets)          |
+| [JavaScript (ES6) code snippets](#JavaScript-ES6-code-snippets-Demo)                                 | JavaScript 相关语法提示                       | [详情](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)      |
 | [ES7 React/Redux/GraphQL/React-Native snippets](#ES7-React-Redux-GraphQL-React-Native-snippets-Demo) | ES7 React/Redux/GraphQL/React-Native 语法提示 | [详情](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets) |
 
 ### HTML-Snippets-Demo
