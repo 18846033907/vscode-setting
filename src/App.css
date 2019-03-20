@@ -19,6 +19,10 @@
   color: white;
 }
 
+.link {
+  color: #282c34;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -27,6 +31,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

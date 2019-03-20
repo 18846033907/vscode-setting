@@ -21,7 +21,7 @@ class App extends Component {
         <ddddddd />
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <button onClick={this.onclick}>click!</button>
+          {/* <button onClick={this.onclick}>click!</button> */}
           <a
             className="App-link"
             href="https://reactjs.org"

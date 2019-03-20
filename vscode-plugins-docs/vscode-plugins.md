@@ -31,6 +31,124 @@
 
 ![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/Path-Intellisense/usage.gif)
 
+### ESLint-Demo
+
+```
+npm install eslint babel-eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-babel eslint-plugin-import eslint-plugin-jest eslint-plugin-jsx-a11y eslint-plugin-react prettier --save-dev
+```
+
+在项目根目录下添加.eslintrc 文件
+
+```json
+{
+  "parser": "babel-eslint",
+  "extends": ["airbnb", "prettier", "prettier/react"],
+  "plugins": ["import", "react"],
+  "env": {
+    "browser": true,
+    "jest": true,
+    "es6": true,
+    "node": true
+  },
+  "rules": {
+    "jsx-a11y/anchor-is-valid": [
+      "error",
+      {
+        "components": ["Link"],
+        "specialLink": ["hrefLeft", "hrefRight", "to"],
+        "aspects": ["noHref", "invalidHref", "preferButton"]
+      }
+    ],
+    "react/jsx-filename-extension": 0,
+    "react/no-multi-comp": 0,
+    "react/destructuring-assignment": 0,
+    "operator-assignment": 0,
+    "no-mixed-operators": "error",
+    "no-tabs": "error",
+    "no-unexpected-multiline": "error",
+    "quotes": [
+      "error",
+      "single",
+      {
+        "avoidEscape": true,
+        "allowTemplateLiterals": false
+      }
+    ]
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  }
+}
+```
+
+### Prettier-Code-formatter-Demo
+
+```
+npm install prettier --save-dev
+```
+
+在项目根目录下添加.prettierrc 文件
+
+```json
+{
+  "eslintIntegration": true,
+  "stylelintIntegration": true,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "semi": false
+}
+```
+
+### EditorConfig-for-VS-Code-Demo
+
+在项目根目录下添加.editorconfig 文件
+
+```json
+[*]
+# Indentation style
+# Possible values - tab, space
+indent_style = space
+
+# Indentation size in single-spaced characters
+# Possible values - an integer, tab
+indent_size = 2
+
+# Line ending file format
+# Possible values - lf, crlf, cr
+end_of_line = lf
+
+# File character encoding
+# Possible values - latin1, utf-8, utf-16be, utf-16le
+charset = utf-8
+
+# Denotes whether to trim whitespace at the end of lines
+# Possible values - true, false
+trim_trailing_whitespace = true
+
+# Denotes whether file should end with a newline
+# Possible values - true, false
+insert_final_newline = true
+```
+
+### stylelint-Demo
+
+```
+npm install stylelint --save-dev
+npm install stylelint-config-standard --save-dev
+```
+
+在项目根目录下添加 stylelintrc 文件
+
+```json
+{
+  "extends": "stylelint-config-standard"
+}
+```
+
+![image]()
+
 ## Git
 
 | 插件                                                       | 简述                            | 官网链接                                                                            |
@@ -73,10 +191,12 @@
 
 # vscode 配置文件
 
-<br>cd 项目文件<br>
-<br>mkdir .vscode<br>
-<br>cd .vscode<br>
-<br>type NUL>settings.json(新建 setting.json 文件)<br>
+```
+cd 项目文件
+mkdir .vscode
+cd .vscode
+type NUL>settings.json(新建 setting.json 文件)
+```
 
 settings.json 的必需配置
 
