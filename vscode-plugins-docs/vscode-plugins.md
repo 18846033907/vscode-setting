@@ -83,6 +83,8 @@ npm install eslint babel-eslint eslint-config-airbnb eslint-config-prettier esli
 }
 ```
 
+![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/ESLint/usage.gif)
+
 ### Prettier-Code-formatter-Demo
 
 ```
@@ -100,6 +102,8 @@ npm install prettier --save-dev
   "semi": false
 }
 ```
+
+![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/Prettier-Code-formatter/usage.gif)
 
 ### EditorConfig-for-VS-Code-Demo
 
@@ -132,6 +136,8 @@ trim_trailing_whitespace = true
 insert_final_newline = true
 ```
 
+![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/EditorConfig-for-VS-Code/usage.gif)
+
 ### stylelint-Demo
 
 ```
@@ -147,7 +153,7 @@ npm install stylelint-config-standard --save-dev
 }
 ```
 
-![image]()
+![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/stylelint/usage.gif)
 
 ## Git
 
