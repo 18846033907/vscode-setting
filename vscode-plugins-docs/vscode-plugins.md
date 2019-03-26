@@ -2,112 +2,73 @@
 
 ## 编码格式
 
-| 插件                                                       | 简述                              | 官网链接                                                                                       |
-| ---------------------------------------------------------- | --------------------------------- | ---------------------------------------------------------------------------------------------- |
-| [Auto Close Tag](#Auto-Close-Tag-Demo)                     | 自动闭合标签                      | [详情](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)       |
-| [Auto Rename Tag](#Auto-Rename-Tag-Demo)                   | 自动重命名标签                    | [详情](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)      |
-| [Bracket Pair Colorizer](#Bracket-Pair-Colorizer-Demo)     | 生成易读的彩色括号                | [详情](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)   |
-| [Path Intellisense](#Path-Intellisense-Demo)               | 路径匹配                          | [详情](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) |
-| [ESLint](#ESLint-Demo)                                     | 用于支持 JavaScript 实时语法校验  | [详情](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)             |
-| [Prettier - Code formatter](#Prettier-Code-formatter-Demo) | 格式化为标准风格                  | [详情](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)             |
-| [EditorConfig for VS Code](#EditorConfig-for-VS-Code-Demo) | EditorConfig 规范不同编辑器的配置 | [详情](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)          |
-| [stylelint](#stylelint-Demo)                               | 样式检查                          | [详情](https://marketplace.visualstudio.com/items?itemName=shinnn.stylelint)                   |
+| 插件                                                  | 简述                              | 官网链接                                                                                       | 推荐指数 |
+| ----------------------------------------------------- | --------------------------------- | ---------------------------------------------------------------------------------------------- | -------- |
+| [Auto Close Tag](#Auto-Close-Tag)                     | 自动闭合标签                      | [详情](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)       |
+| [Auto Rename Tag](#Auto-Rename-Tag)                   | 自动重命名标签                    | [详情](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)      |
+| [Bracket Pair Colorizer](#Bracket-Pair-Colorizer)     | 生成易读的彩色括号                | [详情](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)   |
+| [Path Intellisense](#Path-Intellisense)               | 路径补全                          | [详情](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) |
+| [ESLint](#ESLint)                                     | 用于支持 JavaScript 实时语法校验  | [详情](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)             |
+| [Prettier - Code formatter](#Prettier-Code-formatter) | 格式化为标准风格                  | [详情](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)             |
+| [EditorConfig for VS Code](#EditorConfig-for-VS-Code) | EditorConfig 规范不同编辑器的配置 | [详情](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)          |
+| [stylelint](#stylelint)                               | 样式检查                          | [详情](https://marketplace.visualstudio.com/items?itemName=shinnn.stylelint)                   |
 
-### Auto-Close-Tag-Demo
+## Git
 
-![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/Auto-Close-Tag/close-tag.gif)
-![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/Auto-Close-Tag/st3.gif)
-![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/Auto-Close-Tag/usage.gif)
+| 插件                                                  | 简述                            | 官网链接                                                                            |
+| ----------------------------------------------------- | ------------------------------- | ----------------------------------------------------------------------------------- |
+| [Git History](#Git-History)                           | 可查看文件的 git log 并进行对比 | [详情](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory) |
+| [GitLens-Git supercharged](#GitLens-Git-supercharged) | 显示代码每一行的最新修改人      | [详情](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)         |
 
-### Auto-Rename-Tag-Demo
+## 语法提示
 
-![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/Auto-Rename-Tag/usage.gif)
+| 插件                                                                                                 | 简述                                          | 官网链接                                                                                    |
+| ---------------------------------------------------------------------------------------------------- | --------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| [HTML Snippets](#HTML-Snippets-Demo)                                                                 | HTML 相关语法提示                             | [详情](https://marketplace.visualstudio.com/items?itemName=abusaidm.html-snippets)          |
+| [JavaScript (ES6) code snippets](#JavaScript-ES6-code-snippets-Demo)                                 | JavaScript 相关语法提示                       | [详情](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)      |
+| [ES7 React/Redux/GraphQL/React-Native snippets](#ES7-React-Redux-GraphQL-React-Native-snippets-Demo) | ES7 React/Redux/GraphQL/React-Native 语法提示 | [详情](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets) |
 
-### Bracket-Pair-Colorizer-Demo
+### Auto-Close-Tag
 
-![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/Bracket-Pair-Colorizer/usage.gif)
+自动闭合 HTML 标签
 
-### Path-Intellisense-Demo
+![image](./imges/Auto-Close-Tag/close-tag.gif)
+![image](./imges/Auto-Close-Tag/st3.gif)
+![image](./imges/Auto-Close-Tag/usage.gif)
 
-![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/Path-Intellisense/usage.gif)
+### Auto-Rename-Tag
 
-### ESLint-Demo
+修改 HTML 标签时，自动修改匹配的标签
 
-```
-npm install eslint babel-eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-babel eslint-plugin-import eslint-plugin-jest eslint-plugin-jsx-a11y eslint-plugin-react prettier --save-dev
-```
+![image](./imges/Auto-Rename-Tag/usage.gif)
 
-在项目根目录下添加.eslintrc 文件
+### Bracket-Pair-Colorizer
 
-```json
-{
-  "parser": "babel-eslint",
-  "extends": ["airbnb", "prettier", "prettier/react"],
-  "plugins": ["import", "react"],
-  "env": {
-    "browser": true,
-    "jest": true,
-    "es6": true,
-    "node": true
-  },
-  "rules": {
-    "jsx-a11y/anchor-is-valid": [
-      "error",
-      {
-        "components": ["Link"],
-        "specialLink": ["hrefLeft", "hrefRight", "to"],
-        "aspects": ["noHref", "invalidHref", "preferButton"]
-      }
-    ],
-    "react/jsx-filename-extension": 0,
-    "react/no-multi-comp": 0,
-    "react/destructuring-assignment": 0,
-    "operator-assignment": 0,
-    "no-mixed-operators": "error",
-    "no-tabs": "error",
-    "no-unexpected-multiline": "error",
-    "quotes": [
-      "error",
-      "single",
-      {
-        "avoidEscape": true,
-        "allowTemplateLiterals": false
-      }
-    ]
-  },
-  "parserOptions": {
-    "ecmaFeatures": {
-      "experimentalObjectRestSpread": true
-    }
-  }
-}
-```
+生成易读的彩色括号
 
-![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/ESLint/usage.gif)
+![image](./imges/Bracket-Pair-Colorizer/usage.gif)
 
-### Prettier-Code-formatter-Demo
+### Path-Intellisense
 
-```
-npm install prettier --save-dev
-```
+编辑器中输入路径时,自动补全
 
-在项目根目录下添加.prettierrc 文件
+![image](./imges/Path-Intellisense/usage.gif)
 
-```json
-{
-  "eslintIntegration": true,
-  "stylelintIntegration": true,
-  "tabWidth": 2,
-  "singleQuote": true,
-  "semi": false
-}
-```
+### ESLint
 
-![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/Prettier-Code-formatter/usage.gif)
+Eslint 一个插件化的 javascript 代码检测工具，相关配置见编码规范
 
-### EditorConfig-for-VS-Code-Demo
+![image](./imges/ESLint/usage.gif)
 
-在项目根目录下添加.editorconfig 文件
+### Prettier-Code-formatter
+
+代码风格统一的插件,通过简单的配置,让编辑器自动帮我们修改代码格式，相关配置见编码规范
+
+![image](./imges/Prettier-Code-formatter/usage.gif)
+
+### EditorConfig-for-VS-Code
+
+不同编辑器对文本的格式会有一定的区别，如果不统一某些规范，可能你跟别人合作的时候，每次更新代码就会出现一堆报错。大部分编辑器都有这个插件，即使团队成员使用不同的 IDE，也可以很好的统一代码风格。使用方法是在项目根目录下添加.editorconfig 文件，在.editorconfig 文件中添加以下代码
 
 ```json
 [*]
@@ -136,64 +97,37 @@ trim_trailing_whitespace = true
 insert_final_newline = true
 ```
 
-![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/EditorConfig-for-VS-Code/usage.gif)
+![image](./imges/EditorConfig-for-VS-Code/usage.gif)
 
-### stylelint-Demo
+### stylelint
 
-```
-npm install stylelint --save-dev
-npm install stylelint-config-standard --save-dev
-```
+stylelint 具体配置可见编码规范
+![image](./imges/stylelint/usage.gif)
 
-在项目根目录下添加 stylelintrc 文件
+### Git-History
 
-```json
-{
-  "extends": "stylelint-config-standard"
-}
-```
+![image](./imges/Git-History/compare.gif)
+![image](./imges/Git-History/fileHistoryCommand.gif)
+![image](./imges/Git-History/fileHistoryCommandMore.gif)
+![image](./imges/Git-History/gitLogv2.gif)
+![image](./imges/Git-History/lineHistoryCommand.gif)
 
-![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/stylelint/usage.gif)
+### GitLens-Git-supercharged
 
-## Git
+![image](./imges/GitLens%20%E2%80%94%20Git%20supercharged/gitlens-preview.gif)
+![image](./imges/GitLens%20%E2%80%94%20Git%20supercharged/usage.gif)
 
-| 插件                                                       | 简述                            | 官网链接                                                                            |
-| ---------------------------------------------------------- | ------------------------------- | ----------------------------------------------------------------------------------- |
-| [Git History](#Git-History-Demo)                           | 可查看文件的 git log 并进行对比 | [详情](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory) |
-| [GitLens-Git supercharged](#GitLens-Git-supercharged-Demo) | 显示代码每一行的最新修改人      | [详情](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)         |
+### HTML-Snippets
 
-### Git-History-Demo
+![image](./imges/HTML-Snippets/usage.gif)
 
-![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/Git-History/compare.gif)
-![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/Git-History/fileHistoryCommand.gif)
-![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/Git-History/fileHistoryCommandMore.gif)
-![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/Git-History/gitLogv2.gif)
-![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/Git-History/lineHistoryCommand.gif)
+### JavaScript-ES6-code-snippets
 
-### GitLens-Git-supercharged-Demo
+![image](./imges/JavaScript-ES6-code-snippets/usage.gif)
 
-![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/GitLens%20%E2%80%94%20Git%20supercharged/gitlens-preview.gif)
-![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/GitLens%20%E2%80%94%20Git%20supercharged/usage.gif)
+### ES7-React-Redux-GraphQL-React-Native-snippets
 
-## 语法提示
-
-| 插件                                                                                                 | 简述                                          | 官网链接                                                                                    |
-| ---------------------------------------------------------------------------------------------------- | --------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| [HTML Snippets](#HTML-Snippets-Demo)                                                                 | HTML 相关语法提示                             | [详情](https://marketplace.visualstudio.com/items?itemName=abusaidm.html-snippets)          |
-| [JavaScript (ES6) code snippets](#JavaScript-ES6-code-snippets-Demo)                                 | JavaScript 相关语法提示                       | [详情](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)      |
-| [ES7 React/Redux/GraphQL/React-Native snippets](#ES7-React-Redux-GraphQL-React-Native-snippets-Demo) | ES7 React/Redux/GraphQL/React-Native 语法提示 | [详情](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets) |
-
-### HTML-Snippets-Demo
-
-![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/HTML-Snippets/usage.gif)
-
-### JavaScript-ES6-code-snippets-Demo
-
-![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/JavaScript-ES6-code-snippets/usage.gif)
-
-### ES7-React-Redux-GraphQL-React-Native-snippets-Demo
-
-![image](https://github.com/18846033907/vscode-setting/blob/master/vscode-plugins-docs/imges/ES7-React-Redux-GraphQL-ReactNative-snippets/usage.gif)
+![image](./imges/ES7-React-Redux-GraphQL-ReactNative-snippets/usage.gif)
 
 # vscode 配置文件
 
