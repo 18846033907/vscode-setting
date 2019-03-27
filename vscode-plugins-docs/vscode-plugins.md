@@ -1,6 +1,6 @@
-# Vs Code Editor 配置
+# VsCode Editor 配置
 
-## Vs Code 插件推荐
+## VsCode 插件推荐
 
 ### 编码格式
 
@@ -130,7 +130,7 @@ JS 语法提示,简写命令,生成基础代码片段。
 ES7,React 等语法提示,简写命令,生成基础代码片段。
 ![image](./imges/ES7-React-Redux-GraphQL-ReactNative-snippets/usage.gif)
 
-## vscode 配置文件
+## VsCode 配置文件
 
 在项目文件根目录下新建.vscode 文件夹,在此文件夹下新建 settings.json 文件
 settings.json 配置文件
@@ -151,7 +151,7 @@ settings.json 配置文件
   "window.zoomLevel": 2,
   // 文件保存时,是否自动根据eslint进行格式化
   "eslint.autoFixOnSave": true,
-  // VScode 文件搜索区域配置
+  // VsCode 文件搜索区域配置
   "search.exclude": {
     "**/dist": true,
     "**/build": true,
@@ -166,7 +166,7 @@ settings.json 配置文件
 
 <br>更多配置项 [https://code.visualstudio.com/docs/getstarted/settings](https://code.visualstudio.com/docs/getstarted/settings)<br>
 
-## vscode 常用快捷键
+## VsCode 常用快捷键
 
 ### 主命令框
 
@@ -212,6 +212,6 @@ settings.json 配置文件
 | 查找替换         | ctrl+H       | cmd+H       |
 | 整个文件夹中查找 | ctrl+shift+F | cmd+shift+F |
 
-<br>想了解更多快捷键,可在 vscode 编辑器内选择 文件>首选项>键盘快捷方式<br>
+<br>想了解更多快捷键,可在 VsCode 编辑器内选择 文件>首选项>键盘快捷方式<br>
 
-vscode 相关配置查询 [https://code.visualstudio.com/docs](https://code.visualstudio.com/docs)
+VsCode 相关配置查询 [https://code.visualstudio.com/docs](https://code.visualstudio.com/docs)
