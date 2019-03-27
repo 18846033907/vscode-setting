@@ -69,27 +69,27 @@ Prettier-Code-formatter 是代码风格统一的插件，通过简单的配置�
 ```json
 [*]
 # Indentation style
-# Possible values - tab， space
+# Possible values - tab,space
 indent_style = space
 
 # Indentation size in single-spaced characters
-# Possible values - an integer， tab
+# Possible values - an integer,tab
 indent_size = 2
 
 # Line ending file format
-# Possible values - lf， crlf， cr
+# Possible values - lf,crlf, cr
 end_of_line = lf
 
 # File character encoding
-# Possible values - latin1， utf-8， utf-16be， utf-16le
+# Possible values - latin1, utf-8,utf-16be,utf-16le
 charset = utf-8
 
 # Denotes whether to trim whitespace at the end of lines
-# Possible values - true， false
+# Possible values - true,false
 trim_trailing_whitespace = true
 
 # Denotes whether file should end with a newline
-# Possible values - true， false
+# Possible values - true, false
 insert_final_newline = true
 ```
 
@@ -138,27 +138,27 @@ settings.json 配置文件
 ```json
 {
   // 设置行尾序列为LF(必需)
-  "files.eol": "\n"，
+  "files.eol": "\n",
   // 是否开启eslint检测(必需)
-  "eslint.enable": true，
+  "eslint.enable": true,
   // 编辑器字体大小
-  "editor.fontSize": 14，
+  "editor.fontSize": 14,
   // 空格
-  "editor.tabSize": 2，
+  "editor.tabSize": 2,
   // 保存时是否自动化格式文档
-  "editor.formatOnSave": true，
+  "editor.formatOnSave": true,
   // 调整窗口的缩放级别
-  "window.zoomLevel": 2，
+  "window.zoomLevel": 2,
   // 文件保存时，是否自动根据eslint进行格式化
-  "eslint.autoFixOnSave": true，
+  "eslint.autoFixOnSave": true,
   // VsCode 文件搜索区域配置
   "search.exclude": {
-    "**/dist": true，
-    "**/build": true，
-    "**/package-lock.json": true，
-    "**/.gitignore": true，
-    "**/.vscode": false，
-    "**/yarn.lock": true，
+    "**/dist": true,
+    "**/build": true,
+    "**/package-lock.json": true,
+    "**/.gitignore": true,
+    "**/.vscode": false,
+    "**/yarn.lock": true,
     "**/package.json": true
   }
 }
