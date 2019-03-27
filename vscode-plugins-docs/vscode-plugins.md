@@ -193,16 +193,16 @@ settings.json 配置文件
 
 ### 代码块区域
 
-| 功能                 | win 快捷键           | mac 快捷键        |
-| -------------------- | -------------------- | ----------------- |
-| 一单词为单位移动     | ctrl+left/right      | cmd+left/right    |
-| 回到行首或行尾       | home/end             | -                 |
-| 上下行交换位置       | shift+top/bottom     | option+top/bottom |
-| 删除当前行代码       | shift+delete         | option+delete     |
-| 删除光标右侧一个单词 | ctrl+delete          | cmd+delete        |
-| 剪切当前行代码       | ctrl+X               | cmd+X             |
-| 向上向下复制一行     | shift+alt+top/bottom | -                 |
-| 注释掉当前行         | ctrl+/               | cmd+/             |
+| 功能                 | win 快捷键           | mac 快捷键              |
+| -------------------- | -------------------- | ----------------------- |
+| 一单词为单位移动     | ctrl+left/right      | cmd+left/right          |
+| 回到行首或行尾       | home/end             | cmd+left/right          |
+| 上下行交换位置       | shift+top/bottom     | option+top/bottom       |
+| 删除当前行代码       | shift+delete         | option+delete           |
+| 删除光标右侧一个单词 | ctrl+delete          | cmd+delete              |
+| 剪切当前行代码       | ctrl+X               | cmd+X                   |
+| 向上向下复制一行     | shift+alt+top/bottom | option+shift+top/bottom |
+| 注释掉当前行         | ctrl+/               | cmd+/                   |
 
 ### 查找替换
 
