@@ -1,3 +1,9 @@
+/**
+ * Hoc.js - Awesome project
+ * Copyright 2019 delta
+ * This is my license...
+ */
+
 import React, { Component } from 'react'
 
 export default (WrappedComponent, name) => {

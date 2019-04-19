@@ -27,17 +27,10 @@
     "**/yarn.lock": true,
     "**/package.json": true
   },
-  // 配置gitlen中git提交历史记录的信息显示情况
-  "gitlens.advanced.messages": {
-    "suppressCommitHasNoPreviousCommitWarning": false,
-    "suppressCommitNotFoundWarning": false,
-    "suppressFileNotUnderSourceControlWarning": false,
-    "suppressGitVersionWarning": false,
-    "suppressLineUncommittedWarning": false,
-    "suppressNoRepositoryWarning": false,
-    "suppressResultsExplorerNotice": false,
-    "suppressShowKeyBindingsNotice": true,
-    "suppressUpdateNotice": false,
-    "suppressWelcomeNotice": true
-  }
+  "licenser.license": "Custom",
+  "licenser.author": "delta",
+  "licenser.projectName": "Awesome project",
+  "licenser.useSingleLineStyle": false,
+  "licenser.customHeader": "@FILE@ - @PROJECT@\nCopyright @YEAR@ @AUTHOR@\nThis is my license...",
+  "licenser.disableAutoHeaderInsertion": false
 }
